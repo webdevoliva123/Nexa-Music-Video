@@ -1,0 +1,68 @@
+[
+    {
+        "type": "playlist",
+        "playlistName": "Playlist #1",
+        "music_videos": [
+            {
+                "name": "eight(prod.&Feat. SUGA of BTS)",
+                "video_url": "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694540067/Love_Maze_xldufw.mp4",
+                "assests": {
+                    "poster": "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694546246/ab67616d0000b273c63be04ae902b1da7a54d247_fiwhcy.jpg",
+                    "gif": ""
+                },
+                "artist": ["IU"]
+            }
+        ]
+    },
+    {
+        "type": "playlist",
+        "playlistName": "Refreshing",
+        "music_videos": [
+            {
+                "name": "Really Really",
+                "video_url": "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694540067/Love_Maze_xldufw.mp4",
+                "assests": {
+                    "poster": "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694545196/ab67616d0000b27354b7f414d89b0a2667bbdb15_mgbkxq.jpg",
+                    "gif": ""
+                },
+                "artist": ["Winner"]
+            },
+            {
+                "name": "Empty",
+                "video_url": "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694540067/Love_Maze_xldufw.mp4",
+                "assests": {
+                    "poster": "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694545277/ab67616d0000b273fae5fb5964b9f99c9ead52c6_yz0kjc.jpg",
+                    "gif": ""
+                },
+                "artist": ["Winner"]
+            },
+            {
+                "name": "Island",
+                "video_url": "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694540067/Love_Maze_xldufw.mp4",
+                "assests": {
+                    "poster": "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694545340/ab67616d0000b2732df95ba4c9afd2823e09fb4e_bai1sb.jpg",
+                    "gif": ""
+                },
+                "artist": ["Winner"]
+            },
+            {
+                "name": "Love Me Love Me",
+                "video_url": "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694540067/Love_Maze_xldufw.mp4",
+                "assests": {
+                    "poster": "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694545447/ab67616d0000b273bc3fabb5b8c2d2be1456bb4b_owrl7k.jpg",
+                    "gif": ""
+                },
+                "artist": ["Winner"]
+            },
+            {
+                "name": "Baby Baby",
+                "video_url": "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694540067/Love_Maze_xldufw.mp4",
+                "assests": {
+                    "poster": "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694545512/ab67616d0000b273c9a048adbd4dbd31349750a9_oxtykd.jpg",
+                    "gif": ""
+                },
+                "artist": ["Winner"]
+            }
+        ]
+    }
+]

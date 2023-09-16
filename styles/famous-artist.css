@@ -1,0 +1,8 @@
+
+.famous_artist_card .player{
+    display: none;
+}
+
+.famous_artist_card:hover  .player{
+    display: flex;
+}

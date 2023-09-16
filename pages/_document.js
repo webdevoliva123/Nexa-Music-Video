@@ -4,10 +4,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <bod style={{background:"#000"}}>
         <Main />
         <NextScript />
-      </body>
+      </bod>
     </Html>
   )
 }

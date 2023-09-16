@@ -1,0 +1,127 @@
+[
+    {
+        "group_name" : "BTS",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694843794/untitled-design-2023-06-09t094908-268_xjh8xc.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694850853/bd8ddf392630ac7b53c78bd8fff8ca20_qlfzf0.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+
+        }
+    },
+    {
+        "group_name" : "Blackpink",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694849751/ab6761610000e5ebc9690bc711d04b3d4fd4b87c_rd1lxs.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694849968/Faqesn2WQAENiF4_irofi0.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+
+        }
+    },
+    {
+        "group_name" : "Red Velvet",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694850110/ab67616d0000b27340c1f9d0fe84fc412ac9e1a0_adblfm.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694850235/Red-Velvet-1_opcicg.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+
+        }
+    },
+    {
+        "group_name" : "EXO",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694850301/ab67616100005174af3c4b988a6fef40843cdc83_wq3fok.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694850403/Debut-Bareng-Comeback-EXO-ZEROBASEONE-Akui-Senang-Kim-Gyu-Vin-Ingin-Minta-Tanda-Tangan-EXO_p3mzm4.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+
+        }
+    },
+    {
+        "group_name" : "SEVENTEEN",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694850539/ab67616d0000b27390daa6a4850343ed08b9fa7d_nkdbq4.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694850619/1601079188-img-20200926-080618_fudulh.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+
+        }
+    }
+]

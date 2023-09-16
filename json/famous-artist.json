@@ -1,0 +1,132 @@
+[
+    {
+        "artist_name" : "IU",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694851411/ab6761610000e5eb006ff3c0136a71bfb9928d34_jxw1yy.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863185/papers.co-hu87-kpop-girl-iu-music-29-wallpaper_t98vvv.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+            "stage_name" : "IU",
+            "original_name" : "Lee Ji-eun"
+        }
+    },
+    {
+        "artist_name" : "DEAN",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863852/Dean-profile_jcggik.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863675/dean-130-mood-trbl-concept-photo-2016_ryw9u8.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+            "stage_name" : "DEAN",
+            "original_name" : "Kwon Hyuk"
+        }
+    },
+    {
+        "artist_name" : "OLNL",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864446/119709289_685221778746631_6960573621522486425_n-800x800_bebn9d.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864741/OLNL-facePicture_ru4lw5.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+            "stage_name" : "OLNL",
+            "original_name" : "Lee Jae-won"
+        }
+    },
+    {
+        "artist_name" : "Sunmi",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864853/ab6761610000e5eb4a29246fa242d0b9f8de3b31_shixhh.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864908/imagem_OLuKCNq_tdna5x.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+            "stage_name" : "Sunmi",
+            "original_name" : "Lee Sun Mi"
+        }
+    },
+    {
+        "artist_name" : "Adjust D",
+        "assets" : {
+            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694865088/ab6761610000e5eb0fad315ccb6b38517152d2cc_boq2nq.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694865123/bts-suga-960x610_qr6zcq.jpg",
+            "images" : [
+                ""
+            ]
+        },
+        "videos" : [
+
+        ],
+        "albums" : [
+
+        ],
+        "playlists" : [
+
+        ],
+        "others" : [
+
+        ],
+        "about" : {
+            "stage_name" : "Adjust D",
+            "original_name" : "Min Yoon Gi"
+        }
+    }
+]
