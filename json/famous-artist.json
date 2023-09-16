@@ -1,6 +1,9 @@
 [
     {
+        "id" : "iu",
+        "is_verified" : true,
         "artist_name" : "IU",
+        "monthly_viewvers" : 247737298 ,
         "assets" : {
             "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694851411/ab6761610000e5eb006ff3c0136a71bfb9928d34_jxw1yy.jpg",
             "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863185/papers.co-hu87-kpop-girl-iu-music-29-wallpaper_t98vvv.jpg",
@@ -26,10 +29,13 @@
         }
     },
     {
+        "id" : "dean",
+        "is_verified" : true,
         "artist_name" : "DEAN",
+        "monthly_viewvers" : 34839832 ,
         "assets" : {
             "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863852/Dean-profile_jcggik.jpg",
-            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863675/dean-130-mood-trbl-concept-photo-2016_ryw9u8.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694889410/wp4718725_hylgjo.jpg",
             "images" : [
                 ""
             ]
@@ -52,10 +58,13 @@
         }
     },
     {
+        "id" : "olnl",
+        "is_verified" : true,
         "artist_name" : "OLNL",
+        "monthly_viewvers" : 624884 ,
         "assets" : {
             "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864446/119709289_685221778746631_6960573621522486425_n-800x800_bebn9d.jpg",
-            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864741/OLNL-facePicture_ru4lw5.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694894430/Screenshot_2023-09-17_at_1.29.38_AM_qhwcdo.png",
             "images" : [
                 ""
             ]
@@ -78,10 +87,13 @@
         }
     },
     {
+        "id" : "sunmi",
+        "is_verified" : true,
         "artist_name" : "Sunmi",
+        "monthly_viewvers" : 74792328 ,
         "assets" : {
             "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864853/ab6761610000e5eb4a29246fa242d0b9f8de3b31_shixhh.jpg",
-            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864908/imagem_OLuKCNq_tdna5x.jpg",
+            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694894591/393124-sunmi-k-pop-you-cant-sit-with-us-4k-pc-wallpaper_oxiv8p.jpg",
             "images" : [
                 ""
             ]
@@ -104,7 +116,10 @@
         }
     },
     {
+        "id" : "adjustd",
+        "is_verified" : true,
         "artist_name" : "Adjust D",
+        "monthly_viewvers" : 98031833 ,
         "assets" : {
             "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694865088/ab6761610000e5eb0fad315ccb6b38517152d2cc_boq2nq.jpg",
             "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694865123/bts-suga-960x610_qr6zcq.jpg",

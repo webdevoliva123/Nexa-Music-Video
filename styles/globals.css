@@ -9,6 +9,7 @@
 @import './famous-artist.css';
 
 
+
 .scrollbar_hidden::-webkit-scrollbar{
   display: hidden;
 }

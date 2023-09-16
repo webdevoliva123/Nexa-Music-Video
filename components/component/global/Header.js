@@ -1,13 +1,19 @@
 import React from "react";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 import {AiOutlineUser} from 'react-icons/ai'
+import { useRouter } from "next/router";
 
 const Header = ({isSticky}) => {
+  const router = useRouter()
+  const pathWithBlack = ["/artist"]
+
+
   return (
-    <div
-      className="absolute top-0 left-0 w-full p-4 flex justify-between items-center "
+    <>
+      <div
+      className={`absolute top-0 left-0 w-full p-4 flex justify-between items-center ${pathWithBlack.includes(router.pathname) !== -1 && isSticky && 'bg-[#111] bg-opacity-[0.6]'}`}
       style={{
-        backdropFilter : `${isSticky ? 'blur(20px)' : 'blur(0px)'}`
+        backdropFilter : `${isSticky && pathWithBlack.includes(router.pathname) === -1 ? 'blur(20px)' : 'blur(0px)'}`
       }}
     >
       {/* left section */}
@@ -34,6 +40,7 @@ const Header = ({isSticky}) => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

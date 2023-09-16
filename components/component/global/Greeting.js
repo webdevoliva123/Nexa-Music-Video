@@ -5,35 +5,16 @@ const Greeting = () => {
 
   useEffect(() => {
     const currentTime = new Date();
-    const timeOptions = {
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric',
-      hour12: true,
-    };
+    const currentHour = currentTime.getHours();
 
-    const currentTimeWithAMPM = currentTime.toLocaleTimeString(
-      undefined,
-      timeOptions
-    );
-
-    if (
-      (Number(currentTimeWithAMPM.split(':')[1]) > 1 &&
-        Number(currentTimeWithAMPM.split(':')[1]) <= 5) ||
-      (Number(currentTimeWithAMPM.split(':')[1]) > 5 &&
-        Number(currentTimeWithAMPM.split(':')[1]) <= 12)
-    ) {
-      setMessage(
-        currentTimeWithAMPM.split(' ')[1] === 'am'
-          ? 'Sweet Dreams!'
-          : 'Welcome Again!'
-      );
+    if (currentHour >= 5 && currentHour < 12) {
+      setMessage('Have a Sunshine Day!');
+    } else if (currentHour >= 12 && currentHour < 17) {
+      setMessage('Welcome Again!');
+    } else if (currentHour >= 17 && currentHour < 20) {
+      setMessage("It's Coffee Time!");
     } else {
-      setMessage(
-        currentTimeWithAMPM.split(' ')[1] === 'pm'
-          ? 'Have A Sunshine Day!'
-          : `It's Coffee Time!`
-      );
+      setMessage('Have a Sweet Dream!');
     }
   }, []);
 

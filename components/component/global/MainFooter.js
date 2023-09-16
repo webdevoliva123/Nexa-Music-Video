@@ -16,7 +16,7 @@ const MainFooter = () => {
             href : '/group?name=winner'
         },
         {
-            name : 'Bol5',
+            name : 'Bol4',
             href : '/group?name=bol4'
         },
         {
@@ -98,7 +98,7 @@ const MainFooter = () => {
         {/* bottom footer */}
         <div className="flex justify-between items-center">
             <article className='text-white text-xs'>Created By Oliva 🍁. | Created For Practice.</article>
-            <article className='text-white text-xs'>@2023 NEXA MUSIC VIDEOS</article>
+            <article className='text-white text-xs'>@2023 AXA MUSIC VIDEOS</article>
         </div>
     </div>
   )

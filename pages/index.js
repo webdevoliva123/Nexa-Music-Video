@@ -1,3 +1,4 @@
+import Head from "next/head";
 import PrintGreeting from "@/components/component/global/Greeting";
 import GlobalMusic from "@/components/component/home/GlobalMusic";
 import MusicVideoForYou from "@/components/component/home/MusicVideoForYou";
@@ -10,9 +11,12 @@ import FamousArtists from "@/components/component/home/FamousArtists";
 import FamousKpopArtists from "@/json/famous-artist.json"
 
 function Home() {
-  
   return (
     <>
+      {/* title  */}
+      <Head>
+        <title>AXA | MUSIC VIDEOS STREAMING WEBSITE</title>
+      </Head>
       <div className="relative w-full z-0">
         <GlobalMusic />
       </div>

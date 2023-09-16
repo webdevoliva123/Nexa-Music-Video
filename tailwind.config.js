@@ -15,7 +15,8 @@ module.exports = {
       colors:{
         'primary': '#000',
         'secondary' :'#111',
-        'green' : '#1bd760'
+        'green' : '#1bd760',
+        'off-white' :'#fffff2'
       }
     },
     fontFamily:{
