@@ -56,7 +56,7 @@ const Artist = () => {
           className="relative w-full h-full object-cover filter brightness-[0.9]"
         />
       </div>
-      <div className="relative w-full z-10">
+      <div className="relative w-full min-h-[50vh] z-10">
         {/* Header */}
         <div className="w-full h-[45vh] p-10 flex justify-start items-end">
           <div>
@@ -85,7 +85,7 @@ const Artist = () => {
         </div>
         {/* Content */}
         <div
-          className="w-full min-h-[100vh] p-5"
+          className="w-full  p-5"
           style={{
             backdropFilter: "blur(100px)",
           }}
@@ -109,7 +109,7 @@ const Artist = () => {
 
           {/* Body */}
           {/* Play For You */}
-          <div className="w-full mb-16">
+          <div className="w-full">
             <article className="text-[#fff] text-3xl font font-semibold mb-8 cursor-pointer">
               Official Music Videos By {currentArtist?.artist_name}.
             </article>
@@ -118,9 +118,10 @@ const Artist = () => {
               showVideo={4}
             />
           </div>
-
-          {/* Play For You */}
-          <div className="w-full mb-20">
+        </div>
+      </div>
+      {/* Play For You */}
+      <div className="w-full mb-20 p-5">
             <article className="text-[#fff] text-3xl font font-semibold mb-8 cursor-pointer">
               Discover All.
             </article>
@@ -149,8 +150,6 @@ const Artist = () => {
               <TabContent current_tab={currentTab} artist_content={currentArtist} tab_view={currentView} />
 
           </div>
-        </div>
-      </div>
     </div>
   );
 };
