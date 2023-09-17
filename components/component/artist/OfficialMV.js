@@ -1,5 +1,6 @@
 import React from 'react'
-import MusicVideo from '../home/MusicVideo'
+import MusicVideo_Gallery from './MusicVideoContainer/MusicVideo_Gallery'
+import MusicVideo_Rows from './MusicVideoContainer/MusicVideo_Rows'
 
 const OfficialMV = ({artist_content,tab_view}) => {
   return (
@@ -10,12 +11,19 @@ const OfficialMV = ({artist_content,tab_view}) => {
                 {
                     artist_content?.videos?.map((mv,idx) => {
                         return (
-                            <MusicVideo music={mv} key={idx}/>
+                            <MusicVideo_Gallery music={mv} key={idx}/>
                         )
                     })
                 }
             </> :
             <>
+            {
+                    artist_content?.videos?.map((mv,idx) => {
+                        return (
+                            <MusicVideo_Rows music={mv} key={idx}/>
+                        )
+                    })
+                }
             </>
         }
     </div>

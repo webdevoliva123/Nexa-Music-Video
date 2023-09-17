@@ -8,6 +8,8 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import Footer from "./Footer";
 import playlist from "@/json/playlist.json";
 import Library from "../sidebar/liabrarys/Library";
+import logo from '@/public/assest/logo/main-logo.png'
+import Image from "next/image";
 
 const Sidebar = () => {
   const router = useRouter();
