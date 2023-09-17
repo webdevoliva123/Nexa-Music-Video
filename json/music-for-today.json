@@ -1,9 +1,9 @@
 [
     {
       "poster": {
-        "video":
+        "short_video":
           "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694541850/SEVENTEEN_%E1%84%89%E1%85%A6%E1%84%87%E1%85%B3%E1%86%AB%E1%84%90%E1%85%B5%E1%86%AB_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%A9%E1%84%80%E1%85%A9%E1%86%BC_Official_MV_pebeh4.mp4",
-        "photo":
+        "video":
           "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694538102/F0ty0UCagAAaGe5_p3g5sg.jpg",
         "thumbnail" : "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694632086/maxresdefault_xyrwxx.jpg"
       },
@@ -12,9 +12,9 @@
     },
     {
       "poster": {
-        "video":
+        "short_video":
           "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694374923/v1_kvakpe.mp4",
-        "photo":
+        "video":
           "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694372893/ab67616d0000b273d39f54a4ed633a7b15d41113_gvqms5.jpg",
           "thumbnail" : "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694632395/WINNER-Hold-MV_omgegz.jpg"
        },
@@ -23,9 +23,9 @@
     },
     {
       "poster": {
-        "video":
+        "short_video":
           "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694376165/v0_thedmi.mp4",
-        "photo":
+        "video":
           "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694371789/ab67616d0000b2732f1a5b69c2bd76474bca8035_tpyecv.jpg",
           "thumbnail" : "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694632991/maxresdefault_xr9yzq.jpg"
       },
@@ -34,9 +34,9 @@
     },
     {
       "poster": {
-        "video":
+        "short_video":
           "https://res.cloudinary.com/dmnhp9f8l/video/upload/v1694374474/v2_wlpem1.mp4",
-        "photo":
+        "video":
           "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694374624/ab67616d0000b2735767942fc21a271950c459cb_u083xv.jpg",
         "thumbnail" : "https://res.cloudinary.com/dmnhp9f8l/image/upload/v1694633127/bts-feat-lauv_lkyijp.jpg"
       },

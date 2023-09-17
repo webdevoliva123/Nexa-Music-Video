@@ -1,9 +1,9 @@
 [
     {
       "poster": {
-        "video":
+        "short_video":
           "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694715299/%E1%84%8B%E1%85%A7%E1%84%8C%E1%85%A1_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%E1%86%AF_G_I-DLE_-_%E1%84%8F%E1%85%B1%E1%86%AB%E1%84%8F%E1%85%A1_Queencard_Official_Music_Video_x5ytli.mp4",
-        "photo":
+        "video":
           "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694714950/ab67616d0000b27382dd2427e6d302711b1b9616_vhvl2t.jpg",
         "thumbnail" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694714860/maxresdefault_vknfbc.jpg"
       },
@@ -12,9 +12,9 @@
     },
     {
       "poster": {
-        "video":
+        "short_video":
           "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694715839/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AE%E1%86%A8_Jung_Kook_Seven_feat._Latto_Official_MV_nwrjak.mp4",
-        "photo":
+        "video":
           "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694715409/ab67616d0000b273bf5cce5a0e1ed03a626bdd74_xxmh5x.jpg",
           "thumbnail" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694715461/maxresdefault_f2n8zm.jpg"
        },
@@ -23,9 +23,9 @@
     },
     {
       "poster": {
-        "video":
+        "short_video":
           "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694716184/V_Slow_Dancing_Official_MV_dch9hw.mp4",
-        "photo":
+        "video":
           "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694715763/ab67616d0000b2738e504c5aedaae49a73ed4963_iktgza.jpg",
           "thumbnail" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694715709/578264667_taehyung_202309_vztzea.jpg"
       },
@@ -34,9 +34,9 @@
     },
     {
       "poster": {
-        "video":
+        "short_video":
           "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694716566/aespa_%E1%84%8B%E1%85%A6%E1%84%89%E1%85%B3%E1%84%91%E1%85%A1_Better_Things_MV_rka4gw.mp4",
-        "photo":
+        "video":
           "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694716125/ab67616d0000b27340157e24ffc34938be2b5341_bcmneq.jpg",
         "thumbnail" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694716054/maxresdefault_c8hzyk.jpg"
       },

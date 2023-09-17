@@ -9,10 +9,10 @@ const MusicVideo = ({ music }) => {
       {/* thumbnail */}
       <div className="relative w-full h-[160px] bg-[#000] rounded-xl overflow-hidden mb-2">
        {isHover ?
-       <video src={music.poster.video} className="w-full h-full object-cover filter brightness-[0.8]" muted autoPlay  />
+       <video src={music.poster.short_video} className="w-full h-full object-cover filter brightness-[0.8]" muted autoPlay  />
        :
          <Image
-          src={music.poster.thumbnail}
+          src={music?.poster?.thumbnail}
           alt="music video thumbnail"
           width={500}
           height={500}

@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     const mainDiv = document.querySelector(".main-div");
     mainDiv.scrollTop = 0;
-  }, [router.pathname]);
+  }, [router]);
 
   // Check if the Component has a getLayout method
   if (Component.getLayout) {

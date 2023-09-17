@@ -1,147 +1,180 @@
 [
     {
-        "id" : "iu",
-        "is_verified" : true,
-        "artist_name" : "IU",
-        "monthly_viewvers" : 247737298 ,
-        "assets" : {
-            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694851411/ab6761610000e5eb006ff3c0136a71bfb9928d34_jxw1yy.jpg",
-            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863185/papers.co-hu87-kpop-girl-iu-music-29-wallpaper_t98vvv.jpg",
-            "images" : [
+        "id": "iu",
+        "is_verified": true,
+        "artist_name": "IU",
+        "monthly_viewvers": 247737298,
+        "assets": {
+            "poster": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694851411/ab6761610000e5eb006ff3c0136a71bfb9928d34_jxw1yy.jpg",
+            "banner": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863185/papers.co-hu87-kpop-girl-iu-music-29-wallpaper_t98vvv.jpg",
+            "images": [
                 ""
             ]
         },
-        "videos" : [
-
+        "videos": [
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694940775/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___eight_%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%BA_Prod._Feat._SUGA_of_BTS_u4lw4d.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694935484/905010-iu-suga-eight_ysklrp.jpg"
+                },
+                "artist": "IU, BTS Suga",
+                "music_v": "eight(에잇) (Prod.&Feat. SUGA of BTS)"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941298/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___Celebrity_eowtfu.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694940854/maxresdefault_ljiew2.jpg"
+                },
+                "artist": "IU",
+                "music_v": "IU(아이유) _ Celebrity"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941384/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___strawberry_moon_umu9dl.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694940972/maxresdefault_lvqtxw.jpg"
+                },
+                "artist": "IU",
+                "music_v": "IU(아이유) _ strawberry moon"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941516/IU_%E1%84%82%E1%85%A2_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF_%E1%84%8C%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%A1_Hold_My_Hand_Live_Clip_2019_IU_Tour_Concert_Love_poem_jeln7d.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694941082/1613664269-image_qph2o4.png"
+                },
+                "artist": "IU",
+                "music_v": "[IU] '내 손을 잡아(Hold My Hand)'"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694940775/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___eight_%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%BA_Prod._Feat._SUGA_of_BTS_u4lw4d.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694935484/905010-iu-suga-eight_ysklrp.jpg"
+                },
+                "artist": "IU, BTS Suga",
+                "music_v": "eight(에잇) (Prod.&Feat. SUGA of BTS)"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941298/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___Celebrity_eowtfu.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694940854/maxresdefault_ljiew2.jpg"
+                },
+                "artist": "IU",
+                "music_v": "IU(아이유) _ Celebrity"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941384/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___strawberry_moon_umu9dl.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694940972/maxresdefault_lvqtxw.jpg"
+                },
+                "artist": "IU",
+                "music_v": "IU(아이유) _ strawberry moon"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941516/IU_%E1%84%82%E1%85%A2_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF_%E1%84%8C%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%A1_Hold_My_Hand_Live_Clip_2019_IU_Tour_Concert_Love_poem_jeln7d.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694941082/1613664269-image_qph2o4.png"
+                },
+                "artist": "IU",
+                "music_v": "[IU] '내 손을 잡아(Hold My Hand)'"
+            }
         ],
-        "albums" : [
-
-        ],
-        "playlists" : [
-
-        ],
-        "others" : [
-
-        ],
-        "about" : {
-            "stage_name" : "IU",
-            "original_name" : "Lee Ji-eun"
+        "albums": [],
+        "playlists": [],
+        "others": [],
+        "about": {
+            "stage_name": "IU",
+            "original_name": "Lee Ji-eun"
         }
     },
     {
-        "id" : "dean",
-        "is_verified" : true,
-        "artist_name" : "DEAN",
-        "monthly_viewvers" : 34839832 ,
-        "assets" : {
-            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863852/Dean-profile_jcggik.jpg",
-            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694889410/wp4718725_hylgjo.jpg",
-            "images" : [
+        "id": "dean",
+        "is_verified": true,
+        "artist_name": "DEAN",
+        "monthly_viewvers": 34839832,
+        "assets": {
+            "poster": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694863852/Dean-profile_jcggik.jpg",
+            "banner": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694889410/wp4718725_hylgjo.jpg",
+            "images": [
                 ""
             ]
         },
-        "videos" : [
-
-        ],
-        "albums" : [
-
-        ],
-        "playlists" : [
-
-        ],
-        "others" : [
-
-        ],
-        "about" : {
-            "stage_name" : "DEAN",
-            "original_name" : "Kwon Hyuk"
+        "videos": [],
+        "albums": [],
+        "playlists": [],
+        "others": [],
+        "about": {
+            "stage_name": "DEAN",
+            "original_name": "Kwon Hyuk"
         }
     },
     {
-        "id" : "olnl",
-        "is_verified" : true,
-        "artist_name" : "OLNL",
-        "monthly_viewvers" : 624884 ,
-        "assets" : {
-            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864446/119709289_685221778746631_6960573621522486425_n-800x800_bebn9d.jpg",
-            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694894430/Screenshot_2023-09-17_at_1.29.38_AM_qhwcdo.png",
-            "images" : [
+        "id": "olnl",
+        "is_verified": true,
+        "artist_name": "OLNL",
+        "monthly_viewvers": 624884,
+        "assets": {
+            "poster": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864446/119709289_685221778746631_6960573621522486425_n-800x800_bebn9d.jpg",
+            "banner": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694894430/Screenshot_2023-09-17_at_1.29.38_AM_qhwcdo.png",
+            "images": [
                 ""
             ]
         },
-        "videos" : [
-
-        ],
-        "albums" : [
-
-        ],
-        "playlists" : [
-
-        ],
-        "others" : [
-
-        ],
-        "about" : {
-            "stage_name" : "OLNL",
-            "original_name" : "Lee Jae-won"
+        "videos": [],
+        "albums": [],
+        "playlists": [],
+        "others": [],
+        "about": {
+            "stage_name": "OLNL",
+            "original_name": "Lee Jae-won"
         }
     },
     {
-        "id" : "sunmi",
-        "is_verified" : true,
-        "artist_name" : "Sunmi",
-        "monthly_viewvers" : 74792328 ,
-        "assets" : {
-            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864853/ab6761610000e5eb4a29246fa242d0b9f8de3b31_shixhh.jpg",
-            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694894591/393124-sunmi-k-pop-you-cant-sit-with-us-4k-pc-wallpaper_oxiv8p.jpg",
-            "images" : [
+        "id": "sunmi",
+        "is_verified": true,
+        "artist_name": "Sunmi",
+        "monthly_viewvers": 74792328,
+        "assets": {
+            "poster": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864853/ab6761610000e5eb4a29246fa242d0b9f8de3b31_shixhh.jpg",
+            "banner": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694894591/393124-sunmi-k-pop-you-cant-sit-with-us-4k-pc-wallpaper_oxiv8p.jpg",
+            "images": [
                 ""
             ]
         },
-        "videos" : [
-
-        ],
-        "albums" : [
-
-        ],
-        "playlists" : [
-
-        ],
-        "others" : [
-
-        ],
-        "about" : {
-            "stage_name" : "Sunmi",
-            "original_name" : "Lee Sun Mi"
+        "videos": [],
+        "albums": [],
+        "playlists": [],
+        "others": [],
+        "about": {
+            "stage_name": "Sunmi",
+            "original_name": "Lee Sun Mi"
         }
     },
     {
-        "id" : "adjustd",
-        "is_verified" : true,
-        "artist_name" : "Adjust D",
-        "monthly_viewvers" : 98031833 ,
-        "assets" : {
-            "poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694865088/ab6761610000e5eb0fad315ccb6b38517152d2cc_boq2nq.jpg",
-            "banner" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694865123/bts-suga-960x610_qr6zcq.jpg",
-            "images" : [
+        "id": "adjustd",
+        "is_verified": true,
+        "artist_name": "Adjust D",
+        "monthly_viewvers": 98031833,
+        "assets": {
+            "poster": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694865088/ab6761610000e5eb0fad315ccb6b38517152d2cc_boq2nq.jpg",
+            "banner": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694865123/bts-suga-960x610_qr6zcq.jpg",
+            "images": [
                 ""
             ]
         },
-        "videos" : [
-
-        ],
-        "albums" : [
-
-        ],
-        "playlists" : [
-
-        ],
-        "others" : [
-
-        ],
-        "about" : {
-            "stage_name" : "Adjust D",
-            "original_name" : "Min Yoon Gi"
+        "videos": [],
+        "albums": [],
+        "playlists": [],
+        "others": [],
+        "about": {
+            "stage_name": "Adjust D",
+            "original_name": "Min Yoon Gi"
         }
     }
 ]

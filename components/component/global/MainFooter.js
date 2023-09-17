@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router'
 import React from 'react'
 import {PiGithubLogoThin, PiLinkedinLogoThin, PiDesktopThin} from 'react-icons/pi'
 
@@ -32,21 +33,23 @@ const MainFooter = () => {
     const famousArtists = [
         {
             name : 'IU',
-            href : '/group?name=iu'
+            href : '/artist?id=iu'
         },
         {
             name : 'OLNL',
-            href : '/group?name=olnl'
+            href : '/artist?id=olnl'
         },
         {
             name : 'Sunmi',
-            href : '/group?name=sunmi'
+            href : '/artist?id=sunmi'
         },
         {
             name : 'DEAN',
-            href : '/group?name=dean'
+            href : '/artist?id=dean'
         }
     ]
+
+    const router = useRouter()
   return (
     <div className='relative w-full p-5'>
         {/* top footer */}
@@ -77,7 +80,7 @@ const MainFooter = () => {
                     <div className='flex flex-col justify-start items-start'>
                         {
                             famousArtists.map((artist,idx) => {
-                                return <article key={idx} className='text-xs font-semibold text-[#ccc] mb-2 cursor-pointer hover:text-green'>{artist?.name}</article>
+                                return <article key={idx} className='text-xs font-semibold text-[#ccc] mb-2 cursor-pointer hover:text-green' onClick={() => router.push(artist.href)}>{artist?.name}</article>
                             })
                         }
                     </div>
