@@ -30,7 +30,7 @@ function Home() {
         {/* Play For You */}
         <div className="w-full mb-20">
           <article className="text-[#ccc] hover:text-[#fff] text-xl font font-semibold mb-8 cursor-pointer">Trending Music Videos.</article>
-          <MusicVideoForYou music_video={todaysMusic} />
+          <MusicVideoForYou music_video={todaysMusic} showVideo={4}/>
         </div>
 
         {/* Play For You */}
@@ -42,7 +42,7 @@ function Home() {
         {/* Play For You */}
         <div className="w-full mb-20">
           <article className="text-[#ccc] hover:text-[#fff] text-xl font font-semibold mb-8 cursor-pointer">Explore Latest Music Videos</article>
-          <MusicVideoForYou music_video={exploreLatestVideos} />
+          <MusicVideoForYou music_video={exploreLatestVideos} showVideo={4} />
         </div>
 
         {/* Play For You */}
