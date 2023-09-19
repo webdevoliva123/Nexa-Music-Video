@@ -8,7 +8,7 @@ const AboutArtist = ({ artist_info }) => {
       {/* left section */}
       <div className="flex-[25%] h-full p-5 bg-[#222] bg-opacity-80 rounded-md">
         <div className="w-[200px] h-[200px] rounded-full mx-auto  overflow-hidden mb-5">
-            <Image src={artist_info?.about?.gallery[1]} alt="profile_image" width={500} height={500} className="relative w-full h-full object-cover filter brightness-[0.8]" />
+            <Image src={artist_info?.about?.gallery[0]} alt="profile_image" width={500} height={500} className="relative w-full h-full object-cover filter brightness-[0.8]" />
         </div>
         <article className="text-center text-off-white text-xl font-semibold mb-16">{artist_info?.about?.original_name}</article>
 
@@ -24,19 +24,19 @@ const AboutArtist = ({ artist_info }) => {
 
         <div className="!text-center mb-4">
             <article className="text-xl font-semibold text-white mb-1">In Korea</article>
-            <article className="text-xs text-white">{number_formatter(artist_info?.about?.Korea || 0)} Total Views</article>
+            <article className="text-xs text-white">{number_formatter(artist_info?.about?.Korea || 0)} Monthly Views</article>
         </div>
         <div className="!text-center mb-4">
             <article className="text-xl font-semibold text-white mb-1">In Japan</article>
-            <article className="text-xs text-white">{number_formatter(artist_info?.about?.Japan || 0)} Total Views</article>
+            <article className="text-xs text-white">{number_formatter(artist_info?.about?.Japan || 0)} Monthly Views</article>
         </div>
         <div className="!text-center mb-4">
             <article className="text-xl font-semibold text-white mb-1">In India</article>
-            <article className="text-xs text-white">{number_formatter(artist_info?.about?.India || 0)} Total Views</article>
+            <article className="text-xs text-white">{number_formatter(artist_info?.about?.India || 0)} Monthly Views</article>
         </div>
         <div className="!text-center mb-4">
             <article className="text-xl font-semibold text-white mb-1">In USA</article>
-            <article className="text-xs text-white">{number_formatter(artist_info?.about?.USA || 0)} Total Views</article>
+            <article className="text-xs text-white">{number_formatter(artist_info?.about?.USA || 0)} Monthly Views</article>
         </div>
       </div>
       {/* rigth section */}
