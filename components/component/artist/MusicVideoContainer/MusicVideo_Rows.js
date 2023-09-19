@@ -6,7 +6,6 @@ import {AiOutlineHeart,AiFillHeart} from 'react-icons/ai'
 
 
 const MusicVideo_Rows = ({ music, artistInformation }) => {
-    const [videoDuration,setVedioDuration] = useState(`00:00`)
 
   return (
     <div

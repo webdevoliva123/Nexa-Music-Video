@@ -53,15 +53,8 @@ export default function App({ Component, pageProps }) {
           <Sidebar />
         </div>
         {/* main div */}
-        <div className="main-div relative scrollbar_hidden flex-[78%] w-full h-full bg-secondary rounded-lg overflow-y-scroll z-0">
-          <div
-            className="sticky top-0 left-0 w-full"
-            style={{
-              zIndex: 1000,
-            }}
-          >
+        <div className="main-div relative scrollbar-hidden flex-[78%] w-full h-full bg-secondary rounded-lg overflow-y-scroll z-0">
             <Header isSticky={isMainDivScrolling} />
-          </div>
           <div className="relative z-0  custom-scroll">
             <div className="w-full min-h-screen">
               <Component {...pageProps} />

@@ -11,9 +11,10 @@ const Header = ({isSticky}) => {
   return (
     <>
       <div
-      className={`absolute top-0 left-0 w-full p-4 flex justify-between items-center ${pathWithBlack.includes(router.pathname) !== -1 && isSticky && 'bg-[#111] bg-opacity-[0.6]'}`}
+      className={`${isSticky ? 'sticky' : 'absolute'} top-0 left-0 w-full p-4 flex justify-between items-center   ${pathWithBlack.includes(router.pathname) !== -1 && isSticky && 'bg-[#111]'}`}
       style={{
-        backdropFilter : `${isSticky && pathWithBlack.includes(router.pathname) === -1 ? 'blur(20px)' : 'blur(0px)'}`
+        backdropFilter : `${isSticky && pathWithBlack.includes(router.pathname) === -1 ? 'blur(20px)' : 'blur(0px)'}`,
+        zIndex:999
       }}
     >
       {/* left section */}

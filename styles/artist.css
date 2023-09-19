@@ -1,0 +1,3 @@
+.transparent-blur{
+    backdrop-filter: blur(100px);
+}
