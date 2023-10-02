@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (document.querySelector(".main-div").scrollTop > 0) {
+      if (document.querySelector(".main-div").scrollTop > 100) {
         setIsMainDivScrolling(true);
       } else {
         setIsMainDivScrolling(false);

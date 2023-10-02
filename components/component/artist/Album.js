@@ -3,7 +3,7 @@ import React from "react";
 import { FiMoreVertical } from "react-icons/fi";
 const Album = ({ artist_content }) => {
   console.log(artist_content);
-  return artist_content?.playlists?.length >= 0 ? (
+  return artist_content?.playlists?.length !== 0 ? (
     <div className="w-full grid grid-cols-5 gap-5">
       {artist_content?.albums?.map((album, idx) => {
         console.log(album);

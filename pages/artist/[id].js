@@ -89,7 +89,7 @@ const Artist = () => {
           </div>
           {/* Content */}
           <div className="relative w-full  ">
-            <div className="absolute top-0  left-0 w-full h-full filter bg-black backdrop-blur-[100px] blur-[100px] z-0"></div>
+            <div className="absolute top-0  left-0 w-full h-full bg-[#111] bg-opacity-[0.2]  filter backdrop-blur-3xl z-0"></div>
             <div className="relative w-full h-full p-5 z-10">
               {/* Headeing */}
               <div className="flex justify-start items-center gap-5 mb-10">

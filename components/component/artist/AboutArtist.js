@@ -14,7 +14,7 @@ const AboutArtist = ({ artist_info }) => {
   return (
     <div className="flex items-start gap-10 h-full  ">
       {/* left section */}
-      <div className="flex-[25%] h-full p-5 bg-[#222] bg-opacity-80 rounded-md">
+      <div className="flex-[25%] h-full p-5 bg-[#000] bg-opacity-80 rounded-md">
         <div className="w-[200px] h-[200px] rounded-full mx-auto  overflow-hidden mb-5">
             <Image src={artist_info?.about?.gallery[0]} alt="profile_image" width={500} height={500} className="relative w-full h-full object-cover filter brightness-[0.8]" />
         </div>
@@ -48,7 +48,7 @@ const AboutArtist = ({ artist_info }) => {
         </div>
       </div>
       {/* rigth section */}
-      <div className="flex-[75%] w-full h-full p-5 bg-[#222] bg-opacity-80 overflow-y-auto rounded-md !text-sm !text-off-white">
+      <div className="flex-[75%] w-full h-full p-5 bg-[#000] bg-opacity-80 overflow-y-auto rounded-md !text-sm !text-off-white">
         {artist_info?.about?.gallery?.length >= 3 && <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-full h-[50vh] bg-black mb-10 rounded overflow-hidden">
         {
           artist_info?.about?.gallery?.map((img,idx) => idx !== 0 &&(
