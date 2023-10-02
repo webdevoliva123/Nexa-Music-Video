@@ -20,6 +20,10 @@ import {
 import {
   AiTwotoneSetting
 } from "react-icons/ai";
+import {
+  PiMicrophoneStageFill,
+  PiComputerTowerFill
+} from "react-icons/pi";
 
 const MusicVideoPlayer = ({ videoSrc }) => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -112,11 +116,11 @@ const MusicVideoPlayer = ({ videoSrc }) => {
         }}
       ></div>
       <div className="video_player">
-        <div className="flex-[0.2] w-full flex justify-start items-end">
+        <div className="flex-[0.2] w-full flex justify-start items-end gap-4">
           <div className="relative player_thumbnail">
             <Image
               src={
-                "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696276849/artworks-PkAYHiyqVKRO180Y-Ck7Elg-t500x500_sxiytd.jpg"
+                "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696282249/artworks-J0d7yp5KwzT1byv7-Nz492w-t500x500_eclexk.jpg"
               }
               alt="thumbnail"
               width={500}
@@ -129,6 +133,8 @@ const MusicVideoPlayer = ({ videoSrc }) => {
               <div></div>
             </div>
           </div>
+          <PiComputerTowerFill  size={'25'} className="text-white hover:text-green cursor-pointer !ml-5" />
+          <PiMicrophoneStageFill  size={'20'} className="text-white hover:text-green cursor-pointer !mr-5" />
         </div>
         <div className="flex-[0.6] w-full  flex flex-col justify-center items-center">
           {/* top */}
@@ -189,7 +195,7 @@ const MusicVideoPlayer = ({ videoSrc }) => {
           <div className="flex flex-col justify-center items-center">
             <article className="text-off-white text-sm text-center">
               {" "}
-              BTS (방탄소년단) 'We are Bulletproof : the Eternal' MV
+              [IU] 내 손을 잡아(Hold My Hand) 
             </article>
           </div>
         </div>

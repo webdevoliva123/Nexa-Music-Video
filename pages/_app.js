@@ -45,7 +45,7 @@ export default function App({ Component, pageProps }) {
         </div>
         {/* main div */}
         <div className="main-div relative flex-1 w-full h-full bg-secondary rounded-lg overflow-y-scroll z-0">
-          <Header isSticky={isMainDivScrolling} />
+          {/* <Header isSticky={isMainDivScrolling} /> */}
           <div className="relative z-0 custom-scroll">
             <div className="w-full min-h-screen">
               <Component {...pageProps} />
