@@ -871,26 +871,143 @@
         }
     },
     {
-        "id": "olnl",
+        "id": "jungkook",
         "is_verified": true,
-        "artist_name": "OLNL",
+        "artist_name": "Jung Kook",
         "monthly_viewvers": 624884,
         "assets": {
-            "poster": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694864446/119709289_685221778746631_6960573621522486425_n-800x800_bebn9d.jpg",
-            "banner": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694894430/Screenshot_2023-09-17_at_1.29.38_AM_qhwcdo.png",
+            "poster": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696237839/jungkook-jack-harlow-tout-092923-e0839a4a52f942db86a6a4c9d429ec61_oe5cg2.jpg",
+            "banner": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696227992/bts-jungkook-k-pop-singers-south-korean-boy-band-4000x2666-8179_yfok4z.jpg",
             "images": [
                 ""
             ]
         },
-        "videos": [],
-        "albums": [],
+        "videos": [
+            
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941298/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___Celebrity_eowtfu.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696236737/hq720_wfrerk.jpg"
+                },
+                "artist": "Jungkook, Jack Harlow",
+                "music_v": "정국 (Jung Kook) '3D (feat. Jack Harlow)'"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941384/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___strawberry_moon_umu9dl.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696236922/sevenjungkookresized_d_qvsrvt.png"
+                },
+                "artist": "Junkook, Latto",
+                "music_v": "정국 (Jung Kook) 'Seven (feat. Latto)' Official MV"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941516/IU_%E1%84%82%E1%85%A2_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF_%E1%84%8C%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%A1_Hold_My_Hand_Live_Clip_2019_IU_Tour_Concert_Love_poem_jeln7d.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696237098/maxresdefault_svjvfq.jpg"
+                },
+                "artist": "Jungkook, Fahad Al Kubaisi",
+                "music_v": "Dreamers (feat. Fahad Al Kubaisi) Official MV"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694940775/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___eight_%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%BA_Prod._Feat._SUGA_of_BTS_u4lw4d.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696237358/maxresdefault_barjxv.jpg"
+                },
+                "artist": "Charlie Puth, Jungkook",
+                "music_v": "Charlie Puth - Left And Right (feat. Jung Kook of BTS)"
+            },
+            {
+                "poster": {
+                    "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694940775/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___eight_%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%BA_Prod._Feat._SUGA_of_BTS_u4lw4d.mp4",
+                    "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                    "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696236313/5380380010cb4dc38e0fcc39a41a244d_cyx4ky.jpg"
+                },
+                "artist": "JK",
+                "music_v": "Euphoria : Theme of LOVE YOURSELF"
+            }
+        ],
+        "albums":  [
+            {
+                "album_poster" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696237734/6fb760ab1be47c422d67c99704baa12d.1000x1000x1_tuy5wi.jpg",
+                "album_name" : "3D : The Remixes ",
+                "videos" : [
+                    {
+                        "poster": {
+                            "photo" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1695103749/IU_EIGHT_FT_SUGA_bejczx.jpg",
+                            "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694940775/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___eight_%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%BA_Prod._Feat._SUGA_of_BTS_u4lw4d.mp4",
+                            "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                            "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694935484/905010-iu-suga-eight_ysklrp.jpg"
+                        },
+                        "artist": "IU, BTS Suga",
+                        "music_v": "eight(에잇) (Prod.&Feat. SUGA of BTS)"
+                    },
+                    {
+                        "poster": {
+                            "photo" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1695103815/Celebrity_IU_cover_fkdrdk.jpg",
+                            "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941298/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___Celebrity_eowtfu.mp4",
+                            "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                            "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694940854/maxresdefault_ljiew2.jpg"
+                        },
+                        "artist": "IU",
+                        "music_v": "IU(아이유) _ Celebrity"
+                    },
+                    {
+                        "poster": {
+                            "photo" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1695103912/d60f58d2-3387-45f7-b28c-b30a12835aeb_7f91806e_rflbsw.jpg",
+                            "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941384/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___strawberry_moon_umu9dl.mp4",
+                            "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                            "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694940972/maxresdefault_lvqtxw.jpg"
+                        },
+                        "artist": "IU",
+                        "music_v": "IU(아이유) _ strawberry moon"
+                    },
+                    {
+                        "poster": {
+                            "photo" : "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1695104005/artworks-zrOpZatyX00nIpwn-lFC1lg-t500x500_un7zvf.jpg",
+                            "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941516/IU_%E1%84%82%E1%85%A2_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF_%E1%84%8C%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%A1_Hold_My_Hand_Live_Clip_2019_IU_Tour_Concert_Love_poem_jeln7d.mp4",
+                            "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                            "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694941082/1613664269-image_qph2o4.png"
+                        },
+                        "artist": "IU",
+                        "music_v": "[IU] '내 손을 잡아(Hold My Hand)'"
+                    },
+                    {
+                        "poster": {
+                            "photo":"https://res.cloudinary.com/dkz1pnb2b/image/upload/v1695108585/f8824775f1a7ef30ef5ef068cd422195.1000x1000x1_brav4h.jpg",
+                            "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941384/MV_IU_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%B2___strawberry_moon_umu9dl.mp4",
+                            "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                            "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694963209/maxresdefault_uytj9p.jpg"
+                        },
+                        "artist": "IU",
+                        "music_v": "[IU] '아이와 나의 바다(My sea)"
+                    },
+                    {
+                        "poster": {
+                            "photo":"https://res.cloudinary.com/dkz1pnb2b/image/upload/v1695108698/artworks-000634995490-s98fcl-t500x500_ffm0qs.jpg",
+                            "short_video": "https://res.cloudinary.com/dkz1pnb2b/video/upload/v1694941516/IU_%E1%84%82%E1%85%A2_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF_%E1%84%8C%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%A1_Hold_My_Hand_Live_Clip_2019_IU_Tour_Concert_Love_poem_jeln7d.mp4",
+                            "video": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694713451/ab67616d0000b27349a0f2ca62742d289da81509_vah8mx.jpg",
+                            "thumbnail": "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1694963315/IU-Love-poem-Live-Clip_yrmdhc.jpg"
+                        },
+                        "artist": "IU",
+                        "music_v": "[IU] 'Love poem' Live Clip"
+                    }
+                ]
+            }
+        ],
         "playlists": [],
         "others": [],
         "about": {
-            "stage_name": "OLNL",
-            "original_name": "Lee Jae-won",
+            "stage_name": "Jungkook",
+            "original_name": "Jeon Jung-kook",
             "gallery": [
-                "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1695141672/2f58a438bccc881929095315ea3a7edd_zpz74x.jpg"
+                "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696227911/Jungkook-FI-Article-copy-1440x960_qumo7w.jpg",
+                "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696229727/jungkook-pictures-ukd6nyfjqs480hjf_d7bbbs.jpg",
+                "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696229906/8f4c4188e3f3ebb987abb7a0587b2f3d_bd2ozx.jpg",
+                "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696229845/61QSvNCg7LL_manxo3.jpg"
             ],
             "summary" : "<p style=\"margin-top:0pt; margin-bottom:0pt;\"><span style='color:#b3b3b3;'>South Korean singer, songwriter, and actress Lee Ji-eun performs on the sweeter side of the K-pop spectrum, often focused on ballads and light pop. Choosing the stage name IU -- derived from &quot;I&quot; and &quot;you&quot; to symbolize unity -- Lee debuted in the late 2000s with early efforts Lost &amp; Found and IU...IM, but had her breakthrough in 2010 with the chart-topping &quot;Good Day&quot; from her third EP, Real. She remained a fixture at the top of the Korean charts into the 2020s with hits such as 2011&apos;s Last Fantasy, 2019&apos;s Love Poem, and 2021&apos;s platinum-certified Lilac. In addition to her success in Korea, she also branched out into the Japanese market and, in 2020, scored her first number one in the U.S. with &quot;Eight.&quot;</span></p> <p style='margin-top:0pt; margin-bottom:0pt; '><span style='color:#b3b3b3;'>&nbsp;</span></p> <p style='margin-top:0pt; margin-bottom:0pt; '><span style='color:#b3b3b3;'>Born in Seoul, she began her journey in the entertainment industry at a very young age, enrolling in acting classes while still in elementary school. By middle school, she&apos;d developed a love for singing and trained with Good Entertainment (</span><a style='text-decoration:none;'><span style='color:#ffffff;'>Shinhwa</span></a><span style='color:#b3b3b3;'>) before signing with&nbsp;</span><a style='text-decoration:none;'><span style='color:#ffffff;'>LOEN Entertainment</span></a><span style='color:#b3b3b3;'>&nbsp;in 2007. With a girl-next-door image, Lee made her 2008 debut with the Lost &amp; Found EP, which featured the single &quot;Lost Child.&quot; The following year, Lee issued her first full-length, Growing Up, which featured the dance-oriented single &quot;Boo.&quot; Months later, the EP IU...IM arrived, including the effervescent singles &quot;Love Attack&quot; and &quot;Marshmallow.&quot;</span></p> <p style='margin-top:0pt; margin-bottom:0pt; '><span style='color:#b3b3b3;'>It wasn&apos;t until the end of 2010 and her third EP, Real, that the singer experienced her commercial breakthrough. Her highest-charting effort to date, Real debuted a more mature sound for the singer. Featuring the &quot;Good Day&quot; single, it was quickly followed by the three-song expansion single Real+. Her sophomore set, Last Fantasy, was issued in 2011. Her highest-selling album, it was also her first chart-topper in Korea, and the track &quot;You and I&quot; spent five weeks atop the Billboard K-Pop Hot 100. Eventually, Last Fantasy would win Record of the Year at the Seoul Music Awards and become the 15th best-selling Korean album of the year. Following the success of Fantasy, Lee inked a deal with&nbsp;</span><a style='text-decoration:none;'><span style='color:#ffffff;'>EMI Music Japan</span></a><span style='color:#b3b3b3;'>, which broke her into the Japanese market in 2013 with the Can You Hear Me? EP, which was her first Japanese-language effort. Recorded in Japan, Korea, China, and the United States, the five-song collection also featured production by&nbsp;</span><a href='https://open.spotify.com/artist/4ZaXj4ZrqscgpfqJolMfib' style='text-decoration:none;'><span style='color:#ffffff;'>Jimmy Jam</span></a><span style='color:#b3b3b3;'>&nbsp;and Terry Lewis. That same year, Lee released her third LP, Modern Times, which continued her sonic maturity with hints of jazz and bossa nova.</span></p> <p style='margin-top:0pt; margin-bottom:0pt; '><span style='color:#b3b3b3;'>&nbsp;</span></p> <p style='margin-top:0pt; margin-bottom:0pt; '><span style='color:#b3b3b3;'>In 2014, her sixth EP, A Flower Bookmark, was released. The collection comprised covers of popular Korean pop songs from the &apos;80s and &apos;90s, like Kim Wan-sun&apos;s 1990 song &quot;Pierrot Smiles at Us&quot; and Jo Deok-bae&apos;s 1985 &quot;My Old Story.&quot; That summer, Lee made her first American concert appearance at KCON in Los Angeles. By 2015, she&apos;d made her debut as sole lyricist and producer on her seventh EP, Chat-Shire, which peaked at number four on the Billboard World Albums chart. As her acting roles continued to maintain her visibility throughout East Asia, Lee issued her fourth LP, the critically acclaimed Palette, in 2017. Debuting atop the Korean Gaon chart and the Billboard World Albums chart, Palette featured&nbsp;</span><a><span style='color:#ffffff;'>Big Bang</span></a><span style='color:#b3b3b3;'>&apos;s&nbsp;</span><a style='text-decoration:none;'><span style='color:#ffffff;'>G-Dragon</span></a><span style='color:#b3b3b3;'>&nbsp;on the title track. A sequel EP, A Flower Bookmark 2, landed later that year.</span></p> <p style='margin-top:0pt; margin-bottom:0pt; '><span style='color:#b3b3b3;'>&nbsp;</span></p> <p style='margin-top:0pt; margin-bottom:0pt; '><span style='color:#b3b3b3;'>IU spent 2018 playing a prominent role on the television show My Mister. She also celebrated the tenth anniversary of her debut by issuing the single &quot;Bbibbi.&quot; She continued acting into 2019 with Persona and Hotel del Luna while also releasing her ninth EP, the chart-topping Love Poem, that November. 2020 saw the arrival of the Suga-produced single &quot;Eight,&quot; which became her first U.S. number one. In March 2021, she returned with her fifth full-length album, Lilac. Buoyed by the single &quot;Celebrity,&quot; the album topped the South Korean charts and was certified platinum. ~ Neil Z. Yeung, Rovi</span></p> <p style='margin-top:0pt; margin-bottom:0pt; line-height:115%; font-size:10pt;'><strong>&nbsp;</strong></p> ",
             "followers" : 8177022,

@@ -45,7 +45,7 @@ const Playlist = ({ artist_content }) => {
     </div>
   ) : (
     <>
-      <article className="text-off-white text-3xl text-center">
+      <article className="text-off-white text-3xl text-center h-[50vh] flex justify-center items-center">
         `No Playlist Have Been Created By {artist_content?.artist_name}`
       </article>
     </>

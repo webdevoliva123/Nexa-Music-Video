@@ -13,7 +13,7 @@ const OfficialMV = ({ artist_content, tab_view }) => {
         {tab_view === 1 ? (
           <>
             {artist_content?.videos?.map((mv, idx) => {
-              if (idx < 8) {
+              if (idx < 12) {
                 return <MusicVideo_Gallery music={mv} key={idx} />;
               }
             })}
@@ -37,9 +37,9 @@ const OfficialMV = ({ artist_content, tab_view }) => {
     </>
   ) : (
     <>
-      <article className="text-off-white text-3xl text-center">
+      <div className="text-off-white text-3xl text-center h-[50vh] flex justify-center items-center">
         `No Music Videos Have Been Uploded By {artist_content?.artist_name}`
-      </article>
+      </div>
     </>
   );
 };

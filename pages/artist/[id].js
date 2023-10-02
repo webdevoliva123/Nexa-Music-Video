@@ -38,6 +38,7 @@ const Artist = () => {
   const { query } = useRouter();
   const followed = true;
 
+
   useEffect(() => {
     setCurrentArtist(famousArtist.find((artist) => artist.id === query.id));
   }, [query]);
@@ -109,15 +110,7 @@ const Artist = () => {
 
               {/* Body */}
               {/* Play For You */}
-              <div className="w-full mb-16">
-                <article className="text-[#fff] text-3xl font font-semibold mb-8 cursor-pointer">
-                  Official Music Videos By {currentArtist?.artist_name}.
-                </article>
-                <MusicVideoForYou
-                  music_video={currentArtist?.videos?.reverse()}
-                  showVideo={4}
-                />
-              </div>
+            
 
               {/* Discover All */}
               <div className="w-full mb-16 ">

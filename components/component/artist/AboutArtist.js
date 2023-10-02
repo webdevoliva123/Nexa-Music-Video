@@ -1,6 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import number_formatter from "number_formatter";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+// import required modules
+import { Navigation } from 'swiper/modules';
 
 const AboutArtist = ({ artist_info }) => {
   return (
@@ -40,8 +48,18 @@ const AboutArtist = ({ artist_info }) => {
         </div>
       </div>
       {/* rigth section */}
-      <div className="flex-[75%] h-full p-5 bg-[#222] bg-opacity-80 overflow-y-auto custom-scroll rounded-md !text-sm !text-off-white">
+      <div className="flex-[75%] w-full h-full p-5 bg-[#222] bg-opacity-80 overflow-y-auto rounded-md !text-sm !text-off-white">
+        {artist_info?.about?.gallery?.length >= 3 && <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-full h-[50vh] bg-black mb-10 rounded overflow-hidden">
+        {
+          artist_info?.about?.gallery?.map((img,idx) => idx !== 0 &&(
+            <SwiperSlide><Image key={idx} src={img} width={500} height={500}  alt="image" className="relative w-full h-full object-cover filter brightness-[0.8]"/></SwiperSlide>
+          ))
+        }
+        
+      </Swiper>}
+        <div className="max-h overflow-y-scroll custom-scroll">
         <div dangerouslySetInnerHTML={{__html : artist_info?.about?.summary}} />
+        </div>
       </div>
     </div>
   );

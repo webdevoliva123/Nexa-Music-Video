@@ -3,7 +3,7 @@ import React from "react";
 
 const FamousGroups = ({ Groups }) => {
   return (
-    <div className="w-full grid grid-cols-5 gap-5">
+    <div className="w-full grid sm:grid-cols-5 grid-cols-2 gap-5">
       {Groups.map((group, idx) => {
         return (
           <div key={idx} className="relative w-full h-[160px] bg-black rounded-lg overflow-hidden  cursor-pointer shadow-2xl">

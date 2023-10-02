@@ -7,7 +7,7 @@ const MusicVideo = ({ music }) => {
   return (
     <div className={`w-full cursor-pointer`} onMouseEnter={() =>  setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
       {/* thumbnail */}
-      <div className="relative w-full h-[160px] bg-[#000] rounded-xl overflow-hidden mb-2">
+      <div className="relative w-full sm:h-[160px] h-[180px] bg-[#000] rounded-xl overflow-hidden mb-2">
        {isHover ?
        <video src={music.poster.short_video} className="w-full h-full object-cover filter brightness-[0.8]" muted autoPlay  />
        :

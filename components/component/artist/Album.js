@@ -2,7 +2,8 @@ import Image from "next/image";
 import React from "react";
 import { FiMoreVertical } from "react-icons/fi";
 const Album = ({ artist_content }) => {
-  return artist_content?.playlists?.length > 0 ? (
+  console.log(artist_content);
+  return artist_content?.playlists?.length >= 0 ? (
     <div className="w-full grid grid-cols-5 gap-5">
       {artist_content?.albums?.map((album, idx) => {
         console.log(album);
@@ -43,7 +44,7 @@ const Album = ({ artist_content }) => {
     </div>
   ) : (
     <>
-      <article className="text-off-white text-3xl text-center">
+      <article className="text-off-white text-3xl text-center h-[50vh] flex justify-center items-center">
         `No Playlist Have Been Created By {artist_content?.artist_name}`
       </article>
     </>
