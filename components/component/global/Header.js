@@ -2,15 +2,17 @@ import React from "react";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 import { AiOutlineUser } from 'react-icons/ai';
 import { useRouter } from "next/router";
+import { useMaximizeScreen } from "@/store_management/player_manager";
 
 const Header = ({ isSticky }) => {
   const router = useRouter();
   const pathWithBlack = ["/artist"];
+  const screenFull =  useMaximizeScreen((state) => state.screenFull)
 
   return (
     <>
       <div
-        className={`${isSticky ? 'sticky' : 'absolute'} top-0 left-0 w-full p-4 flex justify-between items-center ${pathWithBlack.includes(router.pathname) !== -1 && isSticky && 'bg-[#000]'}`}
+        className={`${ screenFull ? 'fixed' : isSticky ? 'sticky' : 'absolute'} top-0 left-0 w-full p-4 flex justify-between items-center ${pathWithBlack.includes(router.pathname) !== -1 && isSticky && '!filter !backdrop-blur-lg'}`}
         style={{
           backdropFilter: `${isSticky && pathWithBlack.includes(router.pathname) === -1 ? 'blur(20px)' : 'blur(0px)'}`,
           zIndex: 999

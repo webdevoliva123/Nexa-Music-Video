@@ -3,7 +3,6 @@ import MusicVideo_Gallery from "./MusicVideoContainer/MusicVideo_Gallery";
 
 const OtherV = ({ artist_content }) => {
     const videos =  artist_content?.others
-    console.log(videos);
   return videos.length !== 0 ? (
     <>
       <div

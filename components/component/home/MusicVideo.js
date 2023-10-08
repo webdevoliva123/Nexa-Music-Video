@@ -1,11 +1,16 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 import React, { useState } from "react";
 import {FiMoreVertical} from 'react-icons/fi'
 
 const MusicVideo = ({ music }) => {
     const [isHover,setIsHover] = useState(false)
+    const router = useRouter()
   return (
-    <div className={`w-full cursor-pointer`} onMouseEnter={() =>  setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
+    <a href={`/stream/${music?.artist}/${music?.poster?.video}`}>
+    <div className={`w-full cursor-pointer`} onMouseEnter={() =>  setIsHover(true)} onMouseLeave={() => setIsHover(false)}
+    //  onClick={() => router.push(`/stream/${music?.artist}/${music?.poster?.video}`)}
+     >
       {/* thumbnail */}
       <div className="relative w-full sm:h-[160px] h-[180px] bg-[#000] rounded-xl overflow-hidden mb-2">
        {isHover ?
@@ -30,6 +35,7 @@ const MusicVideo = ({ music }) => {
         </div>
       </div>
     </div>
+    </a>
   );
 };
 

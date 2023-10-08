@@ -8,6 +8,8 @@ import {
   TbRepeat,
   TbArrowsShuffle,
 } from "react-icons/tb";
+import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
+import { CgPlayListAdd } from "react-icons/cg";
 import {
   BsFullscreen,
   BsFullscreenExit,
@@ -15,24 +17,25 @@ import {
   BsFillVolumeOffFill,
   BsFillVolumeMuteFill,
   BsFillVolumeDownFill,
-  BsVolumeDownFill
+  BsVolumeDownFill,
 } from "react-icons/bs";
-import {
-  AiTwotoneSetting
-} from "react-icons/ai";
-import {
-  PiMicrophoneStageFill,
-  PiComputerTowerFill
-} from "react-icons/pi";
+import { AiTwotoneSetting } from "react-icons/ai";
+import { PiMicrophoneStageFill, PiComputerTowerFill } from "react-icons/pi";
 
-const MusicVideoPlayer = ({ videoSrc }) => {
+import { useMaximizeScreen } from "@/store_management/player_manager";
+
+const MusicVideoPlayer = ({ title, thumbnail, videoSrc, artistImage }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [totalDuration, setTotalDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
   const videoRef = useRef();
   const progressBar = useRef();
   const animationRef = useRef();
+  const screenFull = useMaximizeScreen((state) => state.screenFull);
+  const maximizeFunction = useMaximizeScreen((state) => state.maximizeHandler);
+  const minimizeFunction = useMaximizeScreen((state) => state.minimizeHandler);
 
   useEffect(() => {
     const videoElement = videoRef.current;
@@ -94,13 +97,63 @@ const MusicVideoPlayer = ({ videoSrc }) => {
     progessBarHandler();
   };
 
+  useEffect(() => {
+    const elem = document.documentElement;
+    if (elem) {
+      if (screenFull) {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen().catch((err) => {
+            console.error("Failed to enter fullscreen mode:", err);
+          });
+        } else if (elem.mozRequestFullScreen) {
+          // Firefox
+          elem.mozRequestFullScreen().catch((err) => {
+            console.error("Failed to enter fullscreen mode:", err);
+          });
+        } else if (elem.webkitRequestFullscreen) {
+          // Chrome, Safari and Opera
+          elem.webkitRequestFullscreen().catch((err) => {
+            console.error("Failed to enter fullscreen mode:", err);
+          });
+        } else if (elem.msRequestFullscreen) {
+          // IE/Edge
+          elem.msRequestFullscreen().catch((err) => {
+            console.error("Failed to enter fullscreen mode:", err);
+          });
+        }
+      } else {
+        if (document.exitFullscreen) {
+          if (document.fullscreenElement) {
+            document.exitFullscreen().catch((err) => {
+              console.error("Failed to exit fullscreen mode:", err);
+            });
+          }
+        } else if (document.mozCancelFullScreen) {
+          document.mozCancelFullScreen().catch((err) => {
+            console.error("Failed to exit fullscreen mode:", err);
+          });
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen().catch((err) => {
+            console.error("Failed to exit fullscreen mode:", err);
+          });
+        } else if (document.msExitFullscreen) {
+          document.msExitFullscreen().catch((err) => {
+            console.error("Failed to exit fullscreen mode:", err);
+          });
+        }
+      }
+    }
+  }, [screenFull]);
+
   return (
     <>
-      <div className="relative w-full h-full z-0">
+      <div className={`relative w-full h-full  z-0`}>
         <video
           ref={videoRef}
           src={videoSrc}
-          className="relative w-full h-full object-cover z-0 filter brightness-[0.8]"
+          className={`absolute top-0 left-0 w-full ${
+            !screenFull ? "h-[75vh] object-cover" : "h-full object-contain"
+          }  `}
           preload="metadata"
         />
       </div>
@@ -111,32 +164,41 @@ const MusicVideoPlayer = ({ videoSrc }) => {
           left: "0",
           width: "100%",
           height: "100%",
-          backgroundImage: "linear-gradient(transparent, #111 90%)",
+          backgroundImage: !screenFull
+            ? "linear-gradient(transparent, #000 99%)"
+            : "linear-gradient(transparent, #000 99%)",
           zIndex: 0,
         }}
       ></div>
-      <div className="video_player">
+      <div className={`video_player ${screenFull && "active"}`}>
         <div className="flex-[0.2] w-full flex justify-start items-end gap-4">
           <div className="relative player_thumbnail">
             <Image
-              src={
-                "https://res.cloudinary.com/dkz1pnb2b/image/upload/v1696282249/artworks-J0d7yp5KwzT1byv7-Nz492w-t500x500_eclexk.jpg"
-              }
+              src={artistImage}
               alt="thumbnail"
               width={500}
               height={500}
               className="relative w-full h-full object-cover"
             />
-            <div className={`msuic_playing_indicatior ${isPlaying && 'active'}`}>
+            <div
+              className={`msuic_playing_indicatior ${isPlaying && "active"}`}
+            >
               <div></div>
               <div></div>
               <div></div>
             </div>
           </div>
-          <PiComputerTowerFill  size={'25'} className="text-white hover:text-green cursor-pointer !ml-5" />
-          <PiMicrophoneStageFill  size={'20'} className="text-white hover:text-green cursor-pointer !mr-5" />
+
+          <AiOutlineHeart
+            size={"25"}
+            className="text-white hover:text-green cursor-pointer !ml-5"
+          />
+          <PiMicrophoneStageFill
+            size={"20"}
+            className="text-white hover:text-green cursor-pointer !mr-5"
+          />
         </div>
-        <div className="flex-[0.6] w-full  flex flex-col justify-center items-center">
+        <div className="flex-[0.6] w-full  flex flex-col justify-end items-center">
           {/* top */}
           <div className="flex justify-center items-center gap-2 mb-4">
             <TbArrowsShuffle
@@ -192,21 +254,54 @@ const MusicVideoPlayer = ({ videoSrc }) => {
             </article>
           </div>
           {/* bottom */}
-          <div className="flex flex-col justify-center items-center">
-            <article className="text-off-white text-sm text-center">
-              {" "}
-              [IU] 내 손을 잡아(Hold My Hand) 
-            </article>
-          </div>
+          {!screenFull && (
+            <div className="flex flex-col justify-center items-center">
+              <article className="text-off-white text-sm text-center">
+                {" "}
+                {title}
+              </article>
+            </div>
+          )}
         </div>
         <div className="flex-[0.2] w-full">
           <div className="other_options_container">
-          <BsFillVolumeUpFill  size={'20'} className="text-white hover:text-green cursor-pointer" />
-          <AiTwotoneSetting  size={'20'} className="text-white hover:text-green cursor-pointer" />
-          <BsFullscreen  size={'20'} className="text-white hover:text-green cursor-pointer" />
+            <div className="other_options_div">
+              <CgPlayListAdd
+                size={"25"}
+                className="text-white hover:text-green cursor-pointer !mt-[10px]"
+              />
+              <BsFillVolumeUpFill
+                size={"20"}
+                className="text-white hover:text-green cursor-pointer"
+              />
+              <AiTwotoneSetting
+                size={"20"}
+                className="text-white hover:text-green cursor-pointer"
+              />
+              {!screenFull ? (
+                <BsFullscreen
+                  size={"20"}
+                  className="text-white hover:text-green cursor-pointer"
+                  onClick={maximizeFunction}
+                />
+              ) : (
+                <BsFullscreenExit
+                  size={"20"}
+                  className="text-green cursor-pointer"
+                  onClick={minimizeFunction}
+                />
+              )}
+            </div>
           </div>
         </div>
       </div>
+      {/* title */}
+      {screenFull && (
+        <div className="video_title">
+          {" "}
+          {title?.length >= 75 ? `${title?.slice(0, 75)}...` : title}{" "}
+        </div>
+      )}
     </>
   );
 };

@@ -6,6 +6,7 @@ import {FiMoreVertical} from 'react-icons/fi'
 const MusicVideo_Gallery = ({music}) => {
     const [isHover,setIsHover] = useState(false)
     return (
+      <a href={`/stream/${music?.artist}/${music?.poster?.video}`}>
       <div className={`w-full cursor-pointer`} onMouseEnter={() =>  setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
         {/* thumbnail */}
         <div className="relative w-full h-[160px] bg-[#000] rounded-xl overflow-hidden mb-2">
@@ -30,6 +31,7 @@ const MusicVideo_Gallery = ({music}) => {
           </div>
         </div>
       </div>
+      </a>
       )
 }
 

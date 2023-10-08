@@ -21,7 +21,7 @@ function GlobalMusic() {
     <>
       <div className="relative w-full sm:h-[70vh] h-[50vh]">
         <div className="relative w-full sm:h-[60vh] h-[40vh] overflow-hidden">
-          <BackgroundVideo url={globalMusic[0].poster.video} />
+          <BackgroundVideo url={globalMusic[0].poster.short_video} />
         </div>
 
         {/* Overlay */}
@@ -60,9 +60,11 @@ function GlobalMusic() {
                   : globalMusic[0].music_v}
                 .
               </article>
-              <article className="text-green cursor-pointer hover:underline flex justify-start items-center gap-2">
-                <BsPlayCircle className="text-[16px] sm:text-[24px]" /> Play
-              </article>
+              <a href={`/stream/${globalMusic[0]?.artist}/${globalMusic[0]?.poster?.video}`}>
+                <article className="text-green cursor-pointer hover:underline flex justify-start items-center gap-2">
+                  <BsPlayCircle className="text-[16px] sm:text-[24px]" /> Play
+                </article>
+              </a>
             </div>
           </div>
         </div>
